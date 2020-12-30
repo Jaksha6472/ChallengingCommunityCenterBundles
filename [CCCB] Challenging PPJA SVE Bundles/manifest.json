@@ -12,11 +12,11 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 {
-    "Name": "Challenging Community Center Bundles - PPJA Bundle Pack",
+    "Name": "Challenging Community Center Bundles - PPJA SVE Bundle Pack",
     "Author": "alvadea & jaksha",
     "Version": "2.1.0",
-    "Description": "Challenging PPJA Community Center Bundles",
-    "UniqueID": "alja.CCCBPPJA",
+    "Description": "Challenging PPJA SVE Community Center Bundles",
+    "UniqueID": "alja.CCCBPPJASVE",
     "MinimumApiVersion": "3.8",
     "ContentPackFor": {
         "UniqueID": "alja.CCCB",
@@ -53,6 +53,10 @@
         },
 	{
             "UniqueID": "ppja.evenmorerecipes",
+            "IsRequired": true
+        },
+	{
+            "UniqueID": "FlashShifter.JA.SVE",
             "IsRequired": true
         }
     ]

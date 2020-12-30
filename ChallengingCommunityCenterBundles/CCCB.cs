@@ -18,46 +18,6 @@ namespace CCCB
             this.Config = this.Helper.ReadConfig<ModConfig>();
             string BundleVariant = this.Config.BundleVariant;
 
-            // Check the requirements for certain content packs
-            if (this.Config.BundleVariant == "PPJA")
-            {
-                if (!this.Helper.ModRegistry.IsLoaded("spacechase0.JsonAssets"))
-                {
-                    this.Monitor.Log("You can't use the PPJA bundle variant without JsonAssets installed", LogLevel.Error);
-                    return;
-                }
-                if (!this.Helper.ModRegistry.IsLoaded("ppja.artisanvalleymachinegoods"))
-                {
-                    this.Monitor.Log("You can't use the PPJA bundle variant without PPJA Artisan Valley installed", LogLevel.Error);
-                    return;
-                }
-                if (!this.Helper.ModRegistry.IsLoaded("ppja.fruitsandveggies"))
-                {
-                    this.Monitor.Log("You can't use the PPJA bundle variant without PPJA Fruits and Veggies installed", LogLevel.Error);
-                    return;
-                }
-                if (!this.Helper.ModRegistry.IsLoaded("mizu.flowers"))
-                {
-                    this.Monitor.Log("You can't use the PPJA bundle variant without PPJA Mizu's Flowers installed", LogLevel.Error);
-                    return;
-                }
-                if (!this.Helper.ModRegistry.IsLoaded("paradigmnomad.morefood"))
-                {
-                    this.Monitor.Log("You can't use the PPJA bundle variant without PPJA More Recipes installed", LogLevel.Error);
-                    return;
-                }
-                if (!this.Helper.ModRegistry.IsLoaded("ppja.moretrees"))
-                {
-                    this.Monitor.Log("You can't use the PPJA bundle variant without PPJA More Trees installed", LogLevel.Error);
-                    return;
-                }
-                if (!this.Helper.ModRegistry.IsLoaded("ppja.evenmorerecipes"))
-                {
-                    this.Monitor.Log("You can't use the PPJA bundle variant without PPJA Even More Recipes installed", LogLevel.Error);
-                    return;
-                }
-            }
-
             // Load all the Content Packs
             foreach (IContentPack contentPack in this.Helper.ContentPacks.GetOwned())
             {
@@ -89,8 +49,16 @@ namespace CCCB
             }
             else
             {
-                this.Monitor.Log($"Your Config Settings are invalid", LogLevel.Error);
-                return;
+                this.Monitor.Log($"Your Config Settings are invalid.", LogLevel.Error);
+                if (BundlePacks.ContainsKey("Vanilla"))
+                {
+                    this.CustomBundleData = BundlePacks["Vanilla"];
+                    this.Monitor.Log($"Game will be using Vanilla Bundles instead.", LogLevel.Info);
+                }
+                else
+                {
+                    return;
+                }   
             }
 
             helper.Events.GameLoop.SaveLoaded += this.OnSaveLoaded;
@@ -121,6 +89,7 @@ namespace CCCB
                             }
                         }
 
+                        this.Monitor.Log($"Old Bundle: " + Game1.netWorldState.Value.BundleData[Key], LogLevel.Info);
                         this.Monitor.Log($"Set Bundle " + BundleData.ElementAt(index).Key + " to " + this.CustomBundleData[BundleName[0]], LogLevel.Info);
                         Game1.netWorldState.Value.BundleData[Key] = this.CustomBundleData[BundleName[0]];
                     }

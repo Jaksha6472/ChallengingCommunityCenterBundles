@@ -12,7 +12,7 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 {
-	"PPJA": {
+	"PPJA_SVE": {
 //BEGIN PANTRY
             "Spring Crops": "Spring Crops/O 681 5/24 40 0 248 30 0 {{spacechase0.jsonAssets/ObjectId:Honeysuckle}} 30 0 190 20 0 252 20 0 {{spacechase0.jsonAssets/ObjectId:Spinach}} 50 0 188 30 0 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 50 0 400 20 0 591 10 0/5/8/0",
 
@@ -30,15 +30,15 @@
 
 //BEGIN FISHTANK
 
-            "River Fish": "River Fish/BO 154 1/704 20 2 137 20 2 139 20 2 145 20 2 699 10 2 706 20 2 144 10 2 707 20 2/6/6/6",
+            "River Fish": "River Fish/BO 154 1/704 20 2 137 20 2 139 20 2 145 20 2 {{spacechase0.jsonAssets/ObjectId:Butterfish}} 20 2 706 20 2 144 10 2 707 20 2/6/6/6",
 
-        	"Lake Fish": "Lake Fish/O 685 30/136 20 2 698 20 2 700 20 2 142 20 2 702 20 2 141 20 2 138 20 2/0/7/7",
+        	"Lake Fish": "Lake Fish/O 685 30/136 20 2 698 20 2 700 20 2 142 20 2 702 20 2 141 20 2 138 20 2 {{spacechase0.jsonAssets/ObjectId:Minnow}} 20 2/0/7/7",
 
-        	"Ocean Fish": "Ocean Fish/O 275 1/128 10 2 129 20 2 130 20 2 131 20 2 146 20 2 147 20 2 150 20 2 154 20 2 267 20 2 701 20 2/5/8/8",
+        	"Ocean Fish": "Ocean Fish/O 275 1/128 10 2 129 20 2 130 20 2 131 20 2 {{spacechase0.jsonAssets/ObjectId:Clownfish}} 20 2 147 20 2 150 20 2 154 20 2 267 20 2 {{spacechase0.jsonAssets/ObjectId:Starfish}} 20 2/5/8/8",
         		
         	"Night Fishing": "Night Fishing/O 242 10/148 15 0 132 30 0 140 20 0 151 20 0 155 5 0 705 20 0 708 30 0 269 10 0/1/8/9",
 
-        	"Specialty Fish": "Specialty Fish/C 1157 1/156 15 0 158 10 0 161 5 0 734 20 0 164 20 0 165 5 0 799 5 0/4/7/10",
+        	"Specialty Fish": "Specialty Fish/C 1157 1/156 15 0 158 10 0 161 5 0 734 20 0 164 20 0 165 5 0 799 5 0 {{spacechase0.jsonAssets/ObjectId:Puppyfish}} 10 0/4/7/10",
 
         	"Crab Pot": "Crab Pot/F 1675 1/715 20 0 717 20 0 718 20 0 719 20 0 720 20 0 723 20 0 716 20 0 721 20 0 722 20 0 169 20 0/1/10/11",
 
@@ -84,11 +84,11 @@
 
 //BEGIN BULLETIN BOARD
 
-            "Chef's": "Chef's/O 341 1/{{spacechase0.jsonAssets/ObjectId:Poached Pear}} 10 0 {{spacechase0.jsonAssets/ObjectId:Avocado Eel Roll}} 15 0 {{spacechase0.jsonAssets/ObjectId:Rich Tiramisu}} 10 0 {{spacechase0.jsonAssets/ObjectId:Mushroom and Pepper Crepe}} 20 0 {{spacechase0.jsonAssets/ObjectId:Halloumi Burger}} 30 0 {{spacechase0.jsonAssets/ObjectId:Sparkling Wine}} 10 0 {{spacechase0.jsonAssets/ObjectId:Gin}} 30 0 {{spacechase0.jsonAssets/ObjectId:Brandy}} 10 0 {{spacechase0.jsonAssets/ObjectId:Affogato}} 30 0 432 25 0/4/6/31",
+            "Chef's": "Chef's/O 341 1/{{spacechase0.jsonAssets/ObjectId:Poached Pear}} 10 0 {{spacechase0.jsonAssets/ObjectId:Glazed Butterfish}} 25 0 {{spacechase0.jsonAssets/ObjectId:Rich Tiramisu}} 10 0 {{spacechase0.jsonAssets/ObjectId:Mushroom and Pepper Crepe}} 20 0 {{spacechase0.jsonAssets/ObjectId:Big Bark Burger}} 15 0 {{spacechase0.jsonAssets/ObjectId:Sparkling Wine}} 10 0 {{spacechase0.jsonAssets/ObjectId:Gin}} 30 0 {{spacechase0.jsonAssets/ObjectId:Brandy}} 10 0 {{spacechase0.jsonAssets/ObjectId:Affogato}} 30 0 432 25 0/4/6/31",
 
-            "Field Research": "Field Research/O 107 1/{{spacechase0.jsonAssets/ObjectId:Handmade Soap}} 20 0 454 5 0 {{spacechase0.jsonAssets/ObjectId:Aloe}} 30 0 392 10 0 587 1 0 403 40 0 {{spacechase0.jsonAssets/ObjectId:Ground Vegetable}} 20 0 {{spacechase0.jsonAssets/ObjectId:Breakfast Tea}} 15 0 {{spacechase0.jsonAssets/ObjectId:Dried Fruit}} 20 0 536 10 0/5/6/32",
+            "Field Research": "Field Research/O 107 1/{{spacechase0.jsonAssets/ObjectId:Handmade Soap}} 20 0 454 5 0 {{spacechase0.jsonAssets/ObjectId:Aloe}} 30 0 392 10 0 587 1 0 403 40 0 {{spacechase0.jsonAssets/ObjectId:King Salmon}} 10 0 {{spacechase0.jsonAssets/ObjectId:Breakfast Tea}} 15 0 {{spacechase0.jsonAssets/ObjectId:Dried Fruit}} 20 0 536 10 0/5/6/32",
 
-            "Enchanter's": "Enchanter's/R 527 1/{{spacechase0.jsonAssets/ObjectId:Candle}} 20 0 {{spacechase0.jsonAssets/ObjectId:Sun Tea}} 20 0 {{spacechase0.jsonAssets/ObjectId:Dried Mushroom}} 40 0 265 5 0 417 10 0 {{spacechase0.jsonAssets/ObjectId:Moonshine}} 50 0 773 30 0 437 1 0 688 10 0 373 1 0/1/6/33",
+            "Enchanter's": "Enchanter's/R 527 1/{{spacechase0.jsonAssets/ObjectId:Candle}} 20 0 {{spacechase0.jsonAssets/ObjectId:Sun Tea}} 20 0 {{spacechase0.jsonAssets/ObjectId:Dried Mushroom}} 40 0 {{spacechase0.jsonAssets/ObjectId:Frog}} 20 0 417 10 0 {{spacechase0.jsonAssets/ObjectId:Moonshine}} 50 0 773 30 0 437 1 0 688 10 0 373 1 0/1/6/33",
 
             "Dye": "Dye/BO 167 1/{{spacechase0.jsonAssets/ObjectId:Gold Thread}} 20 0 {{spacechase0.jsonAssets/ObjectId:Yarn}} 99 0 789 5 0 597 15 0 444 10 0 428 50 0 {{spacechase0.jsonAssets/ObjectId:Berry Fusion Kombucha}} 20 0 {{spacechase0.jsonAssets/ObjectId:Dried Flower}} 30 0 {{spacechase0.jsonAssets/ObjectId:Herbal Lavender}} 30 0 62 20 0/6/6/34",
 
@@ -98,12 +98,12 @@
 
 //BEGIN MISSING
 
-    	"The Missing": "The Missing//{{spacechase0.jsonAssets/ObjectId:Prismatic Ice Cream}} 1 0 {{spacechase0.jsonAssets/ObjectId:Jalapeno Extract}} 30 0 {{spacechase0.jsonAssets/ObjectId:Popcorn}} 50 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Peas}} 20 0 {{spacechase0.jsonAssets/ObjectId:Seaweed Chips}} 50 0 {{spacechase0.jsonAssets/ObjectId:Hot Irish Coffee}} 30 0 {{spacechase0.jsonAssets/ObjectId:Dark Ale}} 10 0 787 50 0 {{spacechase0.jsonAssets/ObjectId:Strawberry Lemonade}} 20 0 578 10 0 {{spacechase0.jsonAssets/ObjectId:Ice Cream Brownie}} 15 0 122 1 0/1/10",
+    	"The Missing": "The Missing//{{spacechase0.jsonAssets/ObjectId:Prismatic Ice Cream}} 1 0 {{spacechase0.jsonAssets/ObjectId:Jalapeno Extract}} 30 0 {{spacechase0.jsonAssets/ObjectId:Popcorn}} 50 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Peas}} 20 0 {{spacechase0.jsonAssets/ObjectId:Seaweed Chips}} 50 0 {{spacechase0.jsonAssets/ObjectId:Hot Irish Coffee}} 30 0 {{spacechase0.jsonAssets/ObjectId:Dark Ale}} 10 0 787 50 0 {{spacechase0.jsonAssets/ObjectId:Strawberry Lemonade}} 20 0 {{spacechase0.jsonAssets/ObjectId:Void Pebble}} 5 0 {{spacechase0.jsonAssets/ObjectId:Void Salmon Sushi}} 10 0 122 1 0/1/10",
 
 //END MISSING
 	},
 
-"PPJA_Fix": {
+"PPJA_SVE_Fix": {
 //BEGIN PANTRY
             "Spring Crops": "Spring Crops/O 681 5/24 40 0 248 30 0 {{spacechase0.jsonAssets/ObjectId:Honeysuckle}} 30 0 190 20 0 252 20 0 {{spacechase0.jsonAssets/ObjectId:Spinach}} 50 0 188 30 0 {{spacechase0.jsonAssets/ObjectId:Passion Fruit}} 50 0 400 20 0 591 10 0/5/8/0",
 
@@ -121,15 +121,15 @@
 
 //BEGIN FISHTANK
 
-            "River Fish": "River Fish/BO 154 1/704 20 2 137 20 2 139 20 2 145 20 2 699 10 2 706 20 2 144 10 2 707 20 2/6/6/6",
+            "River Fish": "River Fish/BO 154 1/704 20 2 137 20 2 139 20 2 145 20 2 {{spacechase0.jsonAssets/ObjectId:Butterfish}} 20 2 706 20 2 144 10 2 707 20 2/6/6/6",
 
-        	"Lake Fish": "Lake Fish/O 685 30/136 20 2 698 20 2 700 20 2 142 20 2 702 20 2 141 20 2 138 20 2/0/7/7",
+        	"Lake Fish": "Lake Fish/O 685 30/136 20 2 698 20 2 700 20 2 142 20 2 702 20 2 141 20 2 138 20 2 {{spacechase0.jsonAssets/ObjectId:Minnow}} 20 2/0/7/7",
 
-        	"Ocean Fish": "Ocean Fish/O 275 1/128 10 2 129 20 2 130 20 2 131 20 2 146 20 2 147 20 2 150 20 2 154 20 2 267 20 2 701 20 2/5/8/8",
+        	"Ocean Fish": "Ocean Fish/O 275 1/128 10 2 129 20 2 130 20 2 131 20 2 {{spacechase0.jsonAssets/ObjectId:Clownfish}} 20 2 147 20 2 150 20 2 154 20 2 267 20 2 {{spacechase0.jsonAssets/ObjectId:Starfish}} 20 2/5/8/8",
         		
         	"Night Fishing": "Night Fishing/O 242 10/148 15 0 132 30 0 140 20 0 151 20 0 155 5 0 705 20 0 708 30 0 269 10 0/1/8/9",
 
-        	"Specialty Fish": "Specialty Fish/C 1157 1/156 15 0 158 10 0 161 5 0 734 20 0 164 20 0 165 5 0 799 5 0/4/7/10",
+        	"Specialty Fish": "Specialty Fish/C 1157 1/156 15 0 158 10 0 161 5 0 734 20 0 164 20 0 165 5 0 799 5 0 {{spacechase0.jsonAssets/ObjectId:Puppyfish}} 10 0/4/7/10",
 
         	"Crab Pot": "Crab Pot/F 1675 1/715 20 0 717 20 0 718 20 0 719 20 0 720 20 0 723 20 0 716 20 0 721 20 0 722 20 0 169 20 0/1/10/11",
 
@@ -175,11 +175,11 @@
 
 //BEGIN BULLETIN BOARD
 
-            "Chef's": "Chef's/O 341 1/{{spacechase0.jsonAssets/ObjectId:Poached Pear}} 10 0 {{spacechase0.jsonAssets/ObjectId:Avocado Eel Roll}} 15 0 {{spacechase0.jsonAssets/ObjectId:Rich Tiramisu}} 10 0 {{spacechase0.jsonAssets/ObjectId:Mushroom and Pepper Crepe}} 20 0 {{spacechase0.jsonAssets/ObjectId:Halloumi Burger}} 30 0 {{spacechase0.jsonAssets/ObjectId:Sparkling Wine}} 10 0 {{spacechase0.jsonAssets/ObjectId:Gin}} 30 0 {{spacechase0.jsonAssets/ObjectId:Brandy}} 10 0 {{spacechase0.jsonAssets/ObjectId:Affogato}} 30 0 432 25 0/4/6/31",
+            "Chef's": "Chef's/O 341 1/{{spacechase0.jsonAssets/ObjectId:Poached Pear}} 10 0 {{spacechase0.jsonAssets/ObjectId:Glazed Butterfish}} 25 0 {{spacechase0.jsonAssets/ObjectId:Rich Tiramisu}} 10 0 {{spacechase0.jsonAssets/ObjectId:Mushroom and Pepper Crepe}} 20 0 {{spacechase0.jsonAssets/ObjectId:Big Bark Burger}} 15 0 {{spacechase0.jsonAssets/ObjectId:Sparkling Wine}} 10 0 {{spacechase0.jsonAssets/ObjectId:Gin}} 30 0 {{spacechase0.jsonAssets/ObjectId:Brandy}} 10 0 {{spacechase0.jsonAssets/ObjectId:Affogato}} 30 0 432 25 0/4/6/31",
 
-            "Field Research": "Field Research/O 107 1/{{spacechase0.jsonAssets/ObjectId:Handmade Soap}} 20 0 454 5 0 {{spacechase0.jsonAssets/ObjectId:Aloe}} 30 0 392 10 0 587 1 0 403 40 0 {{spacechase0.jsonAssets/ObjectId:Ground Vegetable}} 20 0 {{spacechase0.jsonAssets/ObjectId:Breakfast Tea}} 15 0 {{spacechase0.jsonAssets/ObjectId:Dried Fruit}} 20 0 536 10 0/5/6/32",
+            "Field Research": "Field Research/O 107 1/{{spacechase0.jsonAssets/ObjectId:Handmade Soap}} 20 0 454 5 0 {{spacechase0.jsonAssets/ObjectId:Aloe}} 30 0 392 10 0 587 1 0 403 40 0 {{spacechase0.jsonAssets/ObjectId:King Salmon}} 10 0 {{spacechase0.jsonAssets/ObjectId:Breakfast Tea}} 15 0 {{spacechase0.jsonAssets/ObjectId:Dried Fruit}} 20 0 536 10 0/5/6/32",
 
-            "Enchanter's": "Enchanter's/R 527 1/{{spacechase0.jsonAssets/ObjectId:Candle}} 20 0 {{spacechase0.jsonAssets/ObjectId:Sun Tea}} 20 0 {{spacechase0.jsonAssets/ObjectId:Dried Mushroom}} 40 0 265 5 0 417 10 0 {{spacechase0.jsonAssets/ObjectId:Moonshine}} 50 0 773 30 0 437 1 0 688 10 0 373 1 0/1/6/33",
+            "Enchanter's": "Enchanter's/R 527 1/{{spacechase0.jsonAssets/ObjectId:Candle}} 20 0 {{spacechase0.jsonAssets/ObjectId:Sun Tea}} 20 0 {{spacechase0.jsonAssets/ObjectId:Dried Mushroom}} 40 0 {{spacechase0.jsonAssets/ObjectId:Frog}} 20 0 417 10 0 {{spacechase0.jsonAssets/ObjectId:Moonshine}} 50 0 773 30 0 437 1 0 688 10 0 373 1 0/1/6/33",
 
             "Dye": "Dye/BO 167 1/{{spacechase0.jsonAssets/ObjectId:Gold Thread}} 20 0 {{spacechase0.jsonAssets/ObjectId:Yarn}} 99 0 789 5 0 597 15 0 444 10 0 428 50 0 {{spacechase0.jsonAssets/ObjectId:Berry Fusion Kombucha}} 20 0 {{spacechase0.jsonAssets/ObjectId:Dried Flower}} 30 0 {{spacechase0.jsonAssets/ObjectId:Herbal Lavender}} 30 0 62 20 0/6/6/34",
 
@@ -189,7 +189,7 @@
 
 //BEGIN MISSING
 
-    	"The Missing": "The Missing//{{spacechase0.jsonAssets/ObjectId:Prismatic Ice Cream}} 1 0 {{spacechase0.jsonAssets/ObjectId:Jalapeno Extract}} 30 0 {{spacechase0.jsonAssets/ObjectId:Popcorn}} 50 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Peas}} 20 0 {{spacechase0.jsonAssets/ObjectId:Seaweed Chips}} 50 0 {{spacechase0.jsonAssets/ObjectId:Hot Irish Coffee}} 30 0 {{spacechase0.jsonAssets/ObjectId:Dark Ale}} 10 0 787 50 0 {{spacechase0.jsonAssets/ObjectId:Strawberry Lemonade}} 20 0 578 10 0 {{spacechase0.jsonAssets/ObjectId:Ice Cream Brownie}} 15 0 122 1 0/1/10",
+    	"The Missing": "The Missing//{{spacechase0.jsonAssets/ObjectId:Prismatic Ice Cream}} 1 0 {{spacechase0.jsonAssets/ObjectId:Jalapeno Extract}} 30 0 {{spacechase0.jsonAssets/ObjectId:Popcorn}} 50 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Peas}} 20 0 {{spacechase0.jsonAssets/ObjectId:Seaweed Chips}} 50 0 {{spacechase0.jsonAssets/ObjectId:Hot Irish Coffee}} 30 0 {{spacechase0.jsonAssets/ObjectId:Dark Ale}} 10 0 787 50 0 {{spacechase0.jsonAssets/ObjectId:Strawberry Lemonade}} 20 0 {{spacechase0.jsonAssets/ObjectId:Void Pebble}} 5 0 {{spacechase0.jsonAssets/ObjectId:Void Salmon Sushi}} 10 0 122 1 0/1/10",
 
 //END MISSING
 	}
