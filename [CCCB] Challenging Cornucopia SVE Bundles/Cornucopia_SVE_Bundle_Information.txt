@@ -7,7 +7,7 @@
  `-'`-'     /  `-'`-'     /  `-'`-'     / |  (_,_)  / 
    `._____.'     `._____.'     `._____.'  /_______.'  
                                                       
-VANILLA BUNDLE INFORMATION (Beware Spoilers Ahead)
+CORNUCOPIA SVE BUNDLE INFORMATION (Beware Spoilers Ahead)
 
 ======================================================
 
@@ -34,12 +34,12 @@ PANTRY
 
   40x Parsnip
   30x Garlic
-  30x Potato
+  30x Salal Berry
   20x Cauliflower
   20x Rhuharb
-  30x Unmilled Rice
-  30x Green Bean
-  20x Strawberry
+  20x Onion
+  20x Vanilla
+  20x Basil
   10x Tulip
 
 2. Summer Crops - 8 out of 9
@@ -47,14 +47,14 @@ PANTRY
   Reward: 1 Iridium Sprinkler
 
   50x Blueberry
-  20x Summer Squash
-  30x Hot Pepper
-  40x Hops
-  20x Melon
+  20x Kiwi
+  30x Bell Pepper
+  20x Ancient Fiber
+  20x Watermelon
   20x Red Cabbage
   30x Radish
   30x Tomato
-  10x Summer Spangle
+  10x Lotus
 
 3. Fall Crops - 8 out of 9
 
@@ -63,10 +63,10 @@ PANTRY
   20x Beet
   40x Eggplant
   30x Broccoli
-  40x Bok Choy
+  20x Zucchini
   30x Grape
-  30x Cranberries
-  20x Pumpkin
+  20x Olive
+  20x Peanut
   20x Sunflower
   30x Yam
 
@@ -75,11 +75,11 @@ PANTRY
   Reward: 1 Seedmaker
 
   20x Artichoke
-  40x Coffee Bean
+  30x Rose
   10x Starfruit
   20x Kale
   15x Strawberry
-  20x Tomato
+  20x Cucumber
   15x Pumpkin
 
 5. Rare Crops - 4 out of 4
@@ -123,11 +123,11 @@ Reward: 1 Oilmaker
   5x Fairy Rose
   5x Poppy
   5x Summer Spangle
-  5x Tulip
-  5x Blue Jazz
+  5x Pansy
+  5x Morning Glory
   10x Sunflower
-  5x Crocus
-  5x Sweet Pea
+  5x Orchid
+  5x Lily
 
 9. Artisan Products - 6 out of 7
 
@@ -136,10 +136,10 @@ Reward: 1 Oilmaker
   20x Juice
   20x Pickles
   20x Jelly
-  10x Apricot
+  10x Cocoa
   10x Cherry
   10x Peach
-  10x Pomegranate
+  10x Pear
 
 10. Brewer's - 6 out of 6
 
@@ -164,7 +164,7 @@ FISHTANK
   10x Smallmouth Bass
   10x Salmon
   10x Sunfish
-  5x Tiger Trout
+  10x Butterfish
   10x Shad
   5x Pike
   5x Lingcod
@@ -173,7 +173,7 @@ FISHTANK
 
   Reward: 50 Wild Bait
 
-  10x Largemouth Bass
+  10x Minnow
   10x Sturgeon
   10x Bullhead
   15x Carp
@@ -194,7 +194,7 @@ FISHTANK
   10x Red Snapper
   10x Sea Cucumber
   10x Flounder
-  5x Tilapia
+  10x Starfish
 
 4. Night Fishing - 8 out of 8
 
@@ -215,7 +215,7 @@ FISHTANK
 
   15x Ghostfish
   5x Stonefish
-  3x Ice Pip
+  10x Puppyfish
   15x Woodskip
   10x Sandfish
   3x Scorpion Carp
@@ -226,7 +226,7 @@ FISHTANK
   Reward: 1 Fishing Vest
 
   5x Ghostfish
-  5x Woodskip
+  5x Grass Carp
   5x Bream
   5x Chub
   5x Sardine
@@ -238,7 +238,7 @@ FISHTANK
 
   3x Octopus
   3x Lava Eel
-  3x Scorpion Carp
+  3x Radioactive Bass
   3x Ice Pip
   3x Blobfish
 
@@ -270,7 +270,7 @@ CRAFTSROOM
   15x Leek
   15x Dandelion
   30x Salmonberry
-  10x Spring Onion 
+  5x Big Conch
 
 2. Summer Foraging - 6 out of 6
 
@@ -278,10 +278,10 @@ CRAFTSROOM
 
   15x Spice Berry
   15x Sweet Pea
-  5x Fiddlehead Fern
-  15x Coral
+  10x Dried Sand Dollar
+  15x Pepper Corn
   15x Clam
-  30x Maple Seed
+  30x Raspberry
 
 3. Fall Foraging - 6 out of 6
 
@@ -291,7 +291,7 @@ CRAFTSROOM
   15x Wild Plum
   15x Hazelnut
   30x Blackberry
-  10x Chanterelle
+  25x Mushroom Colony
   30x Acorn
 
 4. Winter Foraging - 6 out of 6
@@ -300,7 +300,7 @@ CRAFTSROOM
 
   15x Winter Root
   15x Crystal Fruit
-  10x Snow Yam
+  10x Bearberrys
   15x Crocus
   30x Pine Cone
   15x Holly
@@ -309,7 +309,7 @@ CRAFTSROOM
 
   Reward: 1 Workbench
 
-  99x Wood
+  20x Olive Oil
   50x Wood Fence
   99x Stone
   20x Hardwood
@@ -456,10 +456,10 @@ BULLETIN BOARD
   Reward: 1 Tea Set
 
   15x Pumpkin Pie
-  5x Lobster Bisque
+  10x Glazed Butterfish
   20x Artichoke Dip
   10x Triple Shot Espresso
-  25x Survival Burger
+  15x Big Bark Burger
   25x Pale Ale
   20x Escargot
   15x Shrimp Cocktail
@@ -472,7 +472,7 @@ BULLETIN BOARD
   10x Red Plate
   5x Ancient Seeds
   10x Frozen Geode
-  10x Nautilus Shell
+  5x Mushroom Berry Rice
   1x Amphibian Fossil
   40x Field Snack
   3x Lava Eel
@@ -486,7 +486,7 @@ BULLETIN BOARD
   10x Morel
   5x Rainbow Shell
   3x Dwarf Scroll I
-  3x Seafoam Pudding
+  5x Frog
   1x Golden Mask 
   5x Oil of Garlic
   20x Life Elixir
@@ -500,11 +500,11 @@ BULLETIN BOARD
   5x Sandstone  
   5x Squid Ink
   10x Sea Urchin
-  10x Tulip
+  10x Chrysanthemum
   10x Duck Feather
   50x Cloth
   20x Wool
-  1x Red Slime Egg
+  30x Cotton Boll
   1x Blue Slime Egg
 
 5. Fodder - 6 out of 9
@@ -513,11 +513,11 @@ BULLETIN BOARD
 
   99x Hay
   10x Apple
-  25x Seaweed
-  25x Green Algae
+  25x Soybean
+  25x Turnip
   50x Corn
   50x Wheat
-  25x Amaranth
+  20x Dulse Seaweed
   20x Carrot
   99x Bait
 
@@ -531,7 +531,7 @@ BULLETIN BOARD
   15x Cranberry Candy
   15x Poppyseed Muffin
   20x Pink Cake
-  10x Fairy Rose
+  3x Mixed Berry Pie
   1x Ancient Doll
   1x Tent Kit
 
@@ -557,7 +557,7 @@ BULLETIN BOARD
   20x Tortilla
   10x Fruit Salad
   10x Salmon Dinner
-  10x Complete Breakfast
+  10x Baked Berry Oatmeal
   10x Pizza
   10x Spaghetti
   10x Bruschetta
@@ -612,13 +612,13 @@ MISSING
 1. Missing - 10 out of 11
 
   1x Magic Rock Candy
-  15x Void Mayonnaise
+  3x Void Pebble
   15x Caviar
-  10x Void Salmon
+  3x Void Delight
   20x Slimejack
   20x Super Meal
   50x Battery Pack
   15x Fish Taco
   10x Star Shards
   30x Pepper Poppers
-  5x Dwarf Gadet
+  1x Dwarf Gadet

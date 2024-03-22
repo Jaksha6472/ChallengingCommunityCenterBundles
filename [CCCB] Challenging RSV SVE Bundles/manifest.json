@@ -12,17 +12,21 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 {
-    "Name": "Challenging Community Center Bundles - Vanilla SVE Bundle Pack",
+    "Name": "Challenging Community Center Bundles - RSV SVE Bundle Pack",
     "Author": "alvadea & jaksha",
     "Version": "3.1.0",
-    "Description": "Challenging Vanilla SVE Community Center Bundles",
-    "UniqueID": "alja.CCCBVanillaSVE",
+    "Description": "Challenging RSV SVE Community Center Bundles",
+    "UniqueID": "alja.CCCBRSVSVE",
     "MinimumApiVersion": "4.0.0",
     "ContentPackFor": {
         "UniqueID": "alja.CCCB",
         "MinimumVersion": "3.1.0"
     },
     "Dependencies": [
+        {
+            "UniqueID": "Rafseazz.RSVCP",
+            "IsRequired": true
+        },
         {
             "UniqueID": "FlashShifter.StardewValleyExpandedCP",
             "IsRequired": true
