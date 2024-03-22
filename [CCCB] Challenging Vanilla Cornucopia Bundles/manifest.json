@@ -12,11 +12,11 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 {
-    "Name": "Challenging Community Center Bundles - Vanilla SVE Bundle Pack",
+    "Name": "Challenging Community Center Bundles - Vanilla Cornucopia Bundle Pack",
     "Author": "alvadea & jaksha",
     "Version": "3.1.0",
-    "Description": "Challenging Vanilla SVE Community Center Bundles",
-    "UniqueID": "alja.CCCBVanillaSVE",
+    "Description": "Challenging Vanilla Cornucopia Community Center Bundles",
+    "UniqueID": "alja.CCCBVanillaCornucopia",
     "MinimumApiVersion": "4.0.0",
     "ContentPackFor": {
         "UniqueID": "alja.CCCB",
@@ -24,7 +24,11 @@
     },
     "Dependencies": [
         {
-            "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+            "UniqueID": "Cornucopia.MoreCrops",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "Cornucopia.MoreFlowers",
             "IsRequired": true
         }
     ]

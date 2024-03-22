@@ -12,47 +12,27 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 {
-    "Name": "Challenging Community Center Bundles - PPJA Bundle Pack",
+    "Name": "Challenging Community Center Bundles - Cornucopia SVE Bundle Pack",
     "Author": "alvadea & jaksha",
-    "Version": "2.3.0",
-    "Description": "Challenging PPJA Community Center Bundles",
-    "UniqueID": "alja.CCCBPPJA",
-    "MinimumApiVersion": "3.8",
+    "Version": "3.1.0",
+    "Description": "Challenging Cornucopia SVE Community Center Bundles",
+    "UniqueID": "alja.CCCBCornucopiaSVE",
+    "MinimumApiVersion": "4.0.0",
     "ContentPackFor": {
         "UniqueID": "alja.CCCB",
-        "MinimumVersion": "2.3.0"
+        "MinimumVersion": "3.1.0"
     },
     "Dependencies": [
-	{
-            "UniqueID": "Esca.FarmTypeManager",
+        {
+            "UniqueID": "Cornucopia.MoreCrops",
             "IsRequired": true
         },
         {
-            "UniqueID": "spacechase0.JsonAssets",
+            "UniqueID": "Cornucopia.MoreFlowers",
             "IsRequired": true
         },
         {
-            "UniqueID": "ppja.artisanvalleymachinegoods",
-            "IsRequired": true
-        },
-        {
-            "UniqueID": "ppja.fruitsandveggies",
-            "IsRequired": true
-        },
-        {
-            "UniqueID": "mizu.flowers",
-            "IsRequired": true
-        },
-        {
-            "UniqueID": "paradigmnomad.morefood",
-            "IsRequired": true
-        },
-        {
-            "UniqueID": "ppja.moretrees",
-            "IsRequired": true
-        },
-	{
-            "UniqueID": "ppja.evenmorerecipes",
+            "UniqueID": "FlashShifter.StardewValleyExpandedCP",
             "IsRequired": true
         }
     ]
